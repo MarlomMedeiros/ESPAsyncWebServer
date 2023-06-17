@@ -59,7 +59,7 @@ class AsyncResponseStream;
 
 #ifndef WEBSERVER_H
 typedef enum {
-  AAHTTP_GET     = 0b00000001,
+  AHTTP_GET     = 0b00000001,
   AHTTP_POST    = 0b00000010,
   AHTTP_DELETE  = 0b00000100,
   AHTTP_PUT     = 0b00001000,
